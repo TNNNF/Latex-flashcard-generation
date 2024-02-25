@@ -1,1 +1,1 @@
-# latex_flashcard_generation
+# latex flashcard generation
