@@ -2,7 +2,6 @@ import argparse
 from os import environ
 from pathlib import Path
 import re
-from turtle import update
 import genanki
 
 def replace_dollar_signs_and_commands(to_replace: str, commands: dict[str, str]) -> str:
