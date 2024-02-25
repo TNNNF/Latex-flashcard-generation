@@ -6,4 +6,4 @@ As of now, there is only a template for writing math documents. However, I will 
 
 ## 1. Installation
 As it's more of a useful script I want to be able to execute quickly, I haven't created a docker container or something similar for it. You can just download the script and execute it (see 2. for further explanation).
-Make sure to have the requirements installed as described in the associated file.
+It was developed using Python 3.9.11. Make sure to have the requirements installed as described in the associated file.
