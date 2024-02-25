@@ -9,3 +9,10 @@ As it's more of a useful script I want to be able to execute quickly, I haven't 
 It was developed using Python 3.9.11. Make sure to have the requirements installed as described in the associated file.
 
 ## 2. Usage
+
+## 3. Current limits of usage
+
+## 4. Bugs and future ideas
+As already mentioned in the introduction for latex templates, feel free to text me whenever you have a good idea for the project or come up with a feature that is currently not available but should be.
+This is a project I am doing in my free time, so I might not find the time to integrate your ideas straightaway but I'll make sure to come back to them when I have time.
+The same goes for bug reports. Please create an issue for it which involves a detailled error description and also steps to reproduce the issue. I'll try to fix it as soon as possible
