@@ -1,0 +1,59 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[left=2.5cm, right=2.5cm, top=2cm, bottom=2cm]{geometry}
+
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+
+\newsavebox{\definitionbox}
+\newsavebox{\theorembox}
+\newsavebox{\remarkbox}
+
+\newenvironment{definition}[1]
+{\newcommand\colboxcolor{F8E0E0}%
+	\begin{lrbox}{\definitionbox}%
+		\begin{minipage}{\dimexpr\columnwidth-2\fboxsep\relax} \textbf{Definition:} (#1) \\ }
+		{\end{minipage}\end{lrbox}%
+	\begin{center}
+		\colorbox[HTML]{\colboxcolor}{\usebox{\definitionbox}}
+\end{center}}
+
+\newenvironment{bemerkung}[1]
+{\newcommand\colboxcolor{E0E0EB}%
+	\begin{lrbox}{\remarkbox}%
+		\begin{minipage}{\dimexpr\columnwidth-2\fboxsep\relax} \textbf{Bemerkung:} (#1) \\ }
+		{\end{minipage}\end{lrbox}%
+	\begin{center}
+		\colorbox[HTML]{\colboxcolor}{\usebox{\remarkbox}}
+\end{center}}
+
+\newenvironment{satz}[2]
+{\newcommand\colboxcolor{99DFE7}%
+	\begin{lrbox}{\theorembox}%
+		\begin{minipage}{\dimexpr\columnwidth-2\fboxsep\relax} \textbf{Satz (#1):} (#2) \\ }
+		{\end{minipage}\end{lrbox}%
+	\begin{center}
+		\colorbox[HTML]{\colboxcolor}{\usebox{\theorembox}}
+\end{center}}
+
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\P}{\mathbb{P}}
+\newcommand{\Quaternions}{\mathbb{H}}
+\newcommand{\rk}{\textrm{rk}}
+\newcommand{\diff}{\textop{\textrm{d}}}
+\newcommand{\image}{\textrm{img}}
+\newcommand{\kernel}{\textrm{ker}}
+\newcommand{\grad}{\textrm{grad}}
+\newcommand{\Rclosure}{\overline{\R}}
+
+\begin{document}
+	Test
+\end{document}
