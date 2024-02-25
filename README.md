@@ -15,4 +15,4 @@ It was developed using Python 3.9.11. Make sure to have the requirements install
 ## 4. Bugs and future ideas
 As already mentioned in the introduction for latex templates, feel free to text me whenever you have a good idea for the project or come up with a feature that is currently not available but should be.
 This is a project I am doing in my free time, so I might not find the time to integrate your ideas straightaway but I'll make sure to come back to them when I have time.
-The same goes for bug reports. Please create an issue for it which involves a detailled error description and also steps to reproduce the issue. I'll try to fix it as soon as possible
+The same applies to bug reports. Please create an issue for it which involves a detailled error description and also steps to reproduce the issue. I'll try to fix it as soon as possible
